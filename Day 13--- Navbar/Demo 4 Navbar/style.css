@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+/* Navbar styling */
+.navbar {
+    background: linear-gradient(145deg, #3a3a3a, #212121); /* 3D gradient */
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* 3D shadow */
+    border-bottom: 4px solid #111;
+    position: relative;
+}
+
+/* Logo */
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* 3D text effect */
+}
+
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    background: linear-gradient(145deg, #4a4a4a, #2a2a2a);
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    transform: translateY(2px);
+}
+
+/* 3D hover effect */
+.nav-links a:hover {
+    background: linear-gradient(145deg, #555, #333);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    transform: translateY(0); /* Moves up slightly to give a press effect */
+}
