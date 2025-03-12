@@ -1,0 +1,75 @@
+.h1{
+    color:white;
+    background-color: blue;
+}
+
+.h2{
+    color: red;
+    background-color: aqua;
+}
+/*
+p{
+    color: orangered;
+}
+    */
+
+.first-p{
+    color: white;
+    background-color: blue;
+}
+
+.second-p{
+    color: white;
+    background-color: black;
+}
+
+#headind1{
+color: white;
+background-color: blue;
+}
+
+#heading2{
+    color: white;
+    background-color: orange;
+}
+
+.heading2{
+    background-color: blueviolet !important;
+}
+
+h3{
+    color: orange;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+color: red;
+}
+
+a:hover{
+    background-color: red;
+    color: white;
+}
+
+ul li:first-child{
+    color: red;
+}
+
+ul li:last-child{
+    color: blue;
+}
+
+ul li:nth-child(even){
+    background-color: orange;
+}
+
+ul li:nth-child(odd){
+    background-color: rgb(188, 18, 140);
+}
+
+ul li:nth-child(5){
+    background-color: green;
+}
