@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Document Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Nactar Student Document Form</h2>
+    <form id="studentForm">
+      <input type="text" id="name" placeholder="Student Name" required>
+      <input type="number" id="age" placeholder="Age" required>
+      <input type="text" id="class" placeholder="Class" required>
+      <input type="text" id="document" placeholder="Document Type (e.g., ID, Passport)" required>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="studentList">
+      <h3>Submitted Documents:</h3>
+      <ul id="list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
